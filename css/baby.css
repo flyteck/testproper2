@@ -2,10 +2,41 @@ body {
 	text-align: center
 }
 
+header {
+	background: url("tilingpattern.png");
+	background-repeat: repeat;
+	background-size: 300px;
+}
+
 h1 {
 	color: #565B6C;
+	margin: 10px 0;
 }
 
 .wrapper {
-	width:  80%;;
+	width:  80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.titleimage {
+	margin: auto;
+	position: relative;
+}
+
+.icon {
+	z-index:2;
+	position: relative;
+}
+
+.bgcircle {
+	width: 150px;
+	height: 150px;
+	background: lightblue;
+	position: absolute;
+	border-radius: 100%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 35%;
 }
