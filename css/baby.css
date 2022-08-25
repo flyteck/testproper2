@@ -6,13 +6,21 @@ body {
 header {
 	background: #0A1023;
 	position: relative;
+	padding: 15px;
 }
 
-h1 {
-	color: #5C6B96;
+.title {
 	margin: 10px 0;
 	z-index:2;
 	position: relative;
+}
+
+.lighttext {
+	color: #B8C9DC;
+}
+
+.darktext {
+	color: #5C6B96;
 }
 
 .content {
